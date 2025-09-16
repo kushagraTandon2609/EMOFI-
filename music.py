@@ -88,6 +88,10 @@ if btn:
         st.warning("please let me capture your emotion first")
         st.session_state["run"]="true"
     else:
-        webbrowser.open(f"https://www.youtube.com/results?search_query={lang}+{emotion}+song+{singer}")
-        np.save("emotion.npy",np.array([""]))
-        st.session_state["run"]="false"
+        url = f"https://www.youtube.com/results?search_query={lang}+{emotion}+song+{singer}"
+        st.markdown(f"### 🎵 Recommended Song for you: [{emotion}]({url})", unsafe_allow_html=True)
+
+
+
+        np.save("emotion.npy", np.array([""]))
+        st.session_state["run"] = "false"
