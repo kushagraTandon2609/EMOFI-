@@ -2,6 +2,6 @@ streamlit
 streamlit-webrtc
 opencv-python-headless
 mediapipe==0.10.11
-tensorflow
-keras
-numpy
+tensorflow==2.12.0
+keras==2.12.0
+numpy==1.23.5
