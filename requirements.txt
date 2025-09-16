@@ -1,8 +1,7 @@
 streamlit
 streamlit-webrtc
-opencv-python
-mediapipe
+opencv-python-headless
+mediapipe==0.10.11
 tensorflow
 keras
 numpy
-pandas
