@@ -22,7 +22,7 @@ CMD run - streamlit run music.py
 ## Setup
 1. **Clone the repository**
 	 ```
-	 git clone https://github.com/yourusername/EMOFI.git
+	 git clone https://github.com/kushagraTandon2609/EMOFI.git
 	 cd EMOFI
 	 ```
 2. **Create and activate a virtual environment**
